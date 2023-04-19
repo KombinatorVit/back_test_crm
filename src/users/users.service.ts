@@ -1,10 +1,10 @@
 import { Injectable } from "@nestjs/common";
 
-import { userss } from "../moks";
+import { users } from "../moks";
 
 @Injectable()
-export class usersService {
-  geruserss() {
-    return userss;
+export class UsersService {
+  getUsers() {
+    return users;
   }
 }
